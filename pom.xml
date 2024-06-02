@@ -112,7 +112,8 @@
           <groupId>org.spigotmc</groupId>
           <artifactId>spigot</artifactId>
           <version>1.8.8-R0.1-SNAPSHOT</version>
-          <scope>provided</scope>
+          <scope>system</scope>
+          <systemPath>${basedir}/dependencies/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
       </dependency>
       <dependency>
           <groupId>de.tr7zw</groupId>
