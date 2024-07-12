@@ -472,10 +472,10 @@ public class Repeater {
         if (set instanceof TickingSet) {
             ((TickingSet)set).tick(player, SItem.find(inventory.getHelmet()), SItem.find(inventory.getChestplate()), SItem.find(inventory.getLeggings()), SItem.find(inventory.getBoots()), counters2);
         }
-        String skysim = Sputnik.trans("&e&lSKYSIM");
+        String skysim = Sputnik.trans("&e&lSATURNNLOCK");
         Boolean isNotCracked = Bukkit.getServer().getOnlineMode();
-        skysim = SBA_MAP.containsKey(uuid) ? (SBA_MAP.get(uuid) ? ChatColor.translateAlternateColorCodes('&', "&e&lSKYBLOCK") : (ChatColor.translateAlternateColorCodes('&', "&e&lSKYSIM &b&lBETA"))) : (ChatColor.translateAlternateColorCodes('&', "&e&lSKYSIM &b&lBETA"));
-        Sidebar sidebar = new Sidebar(skysim, "SKYSIM");
+        skysim = SBA_MAP.containsKey(uuid) ? (SBA_MAP.get(uuid) ? ChatColor.translateAlternateColorCodes('&', "&e&lSKYBLOCK") : (ChatColor.translateAlternateColorCodes('&', "&e&lSATURNBLOCK &b&lBETA"))) : (ChatColor.translateAlternateColorCodes('&', "&e&lSaturnblock &b&lBETA"));
+        Sidebar sidebar = new Sidebar(saturnblock, "SATURNBLOCK");
         String strd = SUtil.getDate();
         if (RebootServerCommand.secondMap.containsKey(Bukkit.getServer())) {
             strd = RebootServerCommand.secondMap.get(Bukkit.getServer()) >= 10 ? ChatColor.RED + "Server closing: 00:" + RebootServerCommand.secondMap.get(Bukkit.getServer()) : ChatColor.RED + "Server closing: 00:0" + RebootServerCommand.secondMap.get(Bukkit.getServer());
@@ -599,12 +599,12 @@ public class Repeater {
 
         if (SBA_MAP.containsKey(uuid)) {
             if (SBA_MAP.get(uuid)) {
-                sidebar.add(ChatColor.YELLOW + "www.hypixel.net");
+                sidebar.add(ChatColor.YELLOW + "www.saturnblock.net");
             } else {
-                sidebar.add(ChatColor.YELLOW + "mc.skysim.sbs");
+                sidebar.add(ChatColor.YELLOW + "mc.saturnblock.net");
             }
         } else {
-            sidebar.add(ChatColor.YELLOW + "mc.skysim.sbs");
+            sidebar.add(ChatColor.YELLOW + "mc.saturnblock.net");
         }
         if (!player.getWorld().getName().equalsIgnoreCase("limbo") && !player.getWorld().getName().equalsIgnoreCase("dungeon")) {
             sidebar.apply(player);
