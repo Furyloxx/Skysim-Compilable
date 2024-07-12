@@ -76,7 +76,7 @@ extends PListener {
         new BukkitRunnable(){
 
             public void run() {
-                DiscordWebhook webhook = new DiscordWebhook("https://discord.com/api/webhooks/935193761795940404/3IdoSzkoXBU8UQb-X_mfizQgXYZZYiQ61FH9KPgm-gaeuUGjfhoTKvaWUFiQjwh55jKN");
+                DiscordWebhook webhook = new DiscordWebhook("https://discord.com/api/webhooks/1261240297426391071/gdgGnzWwX8lAjx9Rtt0wF4AYJrna670ncVeeNIEDJzO8Y9V8QAFIko1Dmocn0QqU_Emu");
                 webhook.setUsername("Saturnblock Packet Assistant [v0.2.1-BETA]");
                 webhook.setAvatarUrl("https://cdn.discordapp.com/attachments/884749251568082964/935357971368656916/AAAAA.png");
                 webhook.setContent("**We caught a crasher!** His/her IP is `" + p.getAddress() + "` with username `" + p.getName() + "`");
