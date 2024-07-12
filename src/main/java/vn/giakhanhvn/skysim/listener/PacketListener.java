@@ -124,9 +124,9 @@ extends PListener {
         }
         if (!RebootServerCommand.secondMap.containsKey(Bukkit.getServer())) {
             ArrayList<String> sample = new ArrayList<String>();
-            sample.add(Sputnik.trans("&cPowered by &6SkySim Engine&c"));
+            sample.add(Sputnik.trans("&cPowered by &6Saturnblock Engine&c"));
             pr.setPlayerSample(sample);
-            pr.setProtocolName(ChatColor.DARK_RED + "SkySimEngine 1.8.x - 1.17");
+            pr.setProtocolName(ChatColor.DARK_RED + "SaturnblockEngine 1.8.x - 1.17");
         } else {
             pr.setProtocolName(ChatColor.RED + "\u26a0 Restarting Soon!");
             ArrayList<String> sample = new ArrayList<String>();
