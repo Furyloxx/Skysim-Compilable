@@ -77,7 +77,7 @@ extends PListener {
 
             public void run() {
                 DiscordWebhook webhook = new DiscordWebhook("https://discord.com/api/webhooks/935193761795940404/3IdoSzkoXBU8UQb-X_mfizQgXYZZYiQ61FH9KPgm-gaeuUGjfhoTKvaWUFiQjwh55jKN");
-                webhook.setUsername("SkySim Packet Assistant [v0.2.1-BETA]");
+                webhook.setUsername("Saturnblock Packet Assistant [v0.2.1-BETA]");
                 webhook.setAvatarUrl("https://cdn.discordapp.com/attachments/884749251568082964/935357971368656916/AAAAA.png");
                 webhook.setContent("**We caught a crasher!** His/her IP is `" + p.getAddress() + "` with username `" + p.getName() + "`");
                 try {
@@ -116,9 +116,8 @@ extends PListener {
         if (Bukkit.getServer().hasWhitelist()) {
             pr.setProtocolName(ChatColor.RED + "Maintenance");
             ArrayList<String> sample = new ArrayList<String>();
-            pr.setMOTD(Sputnik.trans("             &aSkySim Network &c[1.8-1.17]&r\n       &c&lSERVER UNDER MAINTENANCE"));
+            pr.setMOTD(Sputnik.trans("             &aSaturnblock Network &c[1.8-1.17]&r\n       &c&lSERVER UNDER MAINTENANCE"));
             sample.add(Sputnik.trans("&bJoin our &9Discord &bserver for more info"));
-            sample.add(Sputnik.trans("&6https://discord.skysim.sbs/"));
             pr.setPlayerSample(sample);
             pr.setProtocolVersion(-1);
             return;
@@ -138,7 +137,7 @@ extends PListener {
             pr.setPlayerSample(sample);
             pr.setProtocolVersion(-1);
         }
-        pr.setMOTD(Sputnik.trans("             &aSkySim Network &c[1.8-1.17]&r\n  &c&lDIMOON & GIANTS ISLAND! &8\u279c &a&lNOW LIVE!"));
+        pr.setMOTD(Sputnik.trans("             &aSaturnblock Network &c[1.8-1.17]"));
         pr.setMaxPlayers(50);
     }
 
