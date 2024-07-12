@@ -475,7 +475,7 @@ public class Repeater {
         String skysim = Sputnik.trans("&e&lSATURNNLOCK");
         Boolean isNotCracked = Bukkit.getServer().getOnlineMode();
         skysim = SBA_MAP.containsKey(uuid) ? (SBA_MAP.get(uuid) ? ChatColor.translateAlternateColorCodes('&', "&e&lSKYBLOCK") : (ChatColor.translateAlternateColorCodes('&', "&e&lSATURNBLOCK &b&lBETA"))) : (ChatColor.translateAlternateColorCodes('&', "&e&lSaturnblock &b&lBETA"));
-        Sidebar sidebar = new Sidebar(saturnblock, "SATURNBLOCK");
+        Sidebar sidebar = new Sidebar(skysim, "SATURNBLOCK");
         String strd = SUtil.getDate();
         if (RebootServerCommand.secondMap.containsKey(Bukkit.getServer())) {
             strd = RebootServerCommand.secondMap.get(Bukkit.getServer()) >= 10 ? ChatColor.RED + "Server closing: 00:" + RebootServerCommand.secondMap.get(Bukkit.getServer()) : ChatColor.RED + "Server closing: 00:0" + RebootServerCommand.secondMap.get(Bukkit.getServer());
@@ -619,7 +619,7 @@ public class Repeater {
             sidebar1.add("If your connection is");
             sidebar1.add("unstable, stay here!");
             sidebar1.add(ChatColor.AQUA + "     ");
-            sidebar1.add(ChatColor.YELLOW + "skysim.sbs");
+            sidebar1.add(ChatColor.YELLOW + "saturnblock");
             sidebar1.apply(player);
         }
     }
