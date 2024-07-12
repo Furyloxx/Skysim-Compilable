@@ -291,8 +291,8 @@ public class Repeater {
             player.removePotionEffect(PotionEffectType.INVISIBILITY);
         }
         PlayerUtils.updateP(player);
-        if (Sputnik.itemCount(player, "SkySim Menu") > 1) {
-            InventoryUpdate.removeInventoryItemStack(player.getInventory(), "SkySim Menu", Sputnik.itemCount(player, "SkySim Menu") - 1);
+        if (Sputnik.itemCount(player, "Skyblock Menu") > 1) {
+            InventoryUpdate.removeInventoryItemStack(player.getInventory(), "Skyblock Menu", Sputnik.itemCount(player, "Skyblock Menu") - 1);
         }
         if (Sputnik.itemCount(player, "Perfect Talisman") > 1) {
             player.sendMessage(ChatColor.RED + "You can only have 1 talisman per type in your inventory!");
