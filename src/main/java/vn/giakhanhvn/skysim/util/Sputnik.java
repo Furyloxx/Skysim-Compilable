@@ -1536,8 +1536,8 @@ public class Sputnik {
     }
 
     public static void sendWebhook(String content) {
-        DiscordWebhook webhook = new DiscordWebhook("https://discord.com/api/webhooks/935193761795940404/3IdoSzkoXBU8UQb-X_mfizQgXYZZYiQ61FH9KPgm-gaeuUGjfhoTKvaWUFiQjwh55jKN");
-        webhook.setUsername("SkySim Logger Assistant [v0.1-BETA]");
+        DiscordWebhook webhook = new DiscordWebhook("https://discord.com/api/webhooks/1261240301951913995/ceMT63htYBtupw4KbpMqNUvGibqvCTOzId1Xx29uMch1QLjWgxg6hURsDMNJqHFJ3fG8");
+        webhook.setUsername("Saturnblock Logger Assistant [v0.1-BETA]");
         webhook.setAvatarUrl("https://cdn.discordapp.com/attachments/884749251568082964/935357971368656916/AAAAA.png");
         webhook.setContent(content);
         try {
