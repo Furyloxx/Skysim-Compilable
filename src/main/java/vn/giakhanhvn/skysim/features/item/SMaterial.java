@@ -264,6 +264,8 @@ public enum SMaterial {
     LARGE_BACKPACK(Material.SKULL_ITEM, LargeBackpack.class),
     GREATER_BACKPACK(Material.SKULL_ITEM, GreaterBackpack.class),
     JUMBO_BACKPACK(Material.SKULL_ITEM, JumboBackpack.class),
+    BOOSTER_COOKIE(Material.COOKIE,
+BoosterCookie.class),
     REVENANT_FLESH(Material.ROTTEN_FLESH, RevenantFlesh.class),
     FOUL_FLESH(Material.COAL, FoulFlesh.class, (short) 1),
     UNDEAD_CATALYST(Material.SKULL_ITEM, UndeadCatalyst.class),
