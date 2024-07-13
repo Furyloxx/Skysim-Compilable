@@ -27,7 +27,7 @@ MaterialFunction,
 Untradeable {
     @Override
     public String getDisplayName() {
-        return ChatColor.GREEN + "SkySim Menu " + ChatColor.GRAY + "(Right Click)";
+        return ChatColor.GREEN + "Skyblock Menu " + ChatColor.GRAY + "(Right Click)";
     }
 
     @Override
