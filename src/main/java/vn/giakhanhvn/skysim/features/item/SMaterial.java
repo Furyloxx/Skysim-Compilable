@@ -121,6 +121,8 @@ public enum SMaterial {
     HIDDEN_EXCRARION(Material.GOLD_SWORD, Excrarion.class),
     HIDDEN_SHARD_DIAMOND(Material.SKULL_ITEM, ShardoftheDiamondOrb.class),
     HIDDEN_REVANTUS_SWORD(Material.IRON_SWORD, RevantusSword.class),
+    GYROKINETIC_WAND(Material.BLAZE_ROD,
+GyrokineticWand.class),
     WARDEN_HELMET(Material.SKULL_ITEM, WardenHelmet.class),
     CROWN_OF_GREED(Material.GOLD_HELMET, CrownOfGreed.class),
     PRECURSOR_EYE(Material.SKULL_ITEM, PrecursorEye.class),
