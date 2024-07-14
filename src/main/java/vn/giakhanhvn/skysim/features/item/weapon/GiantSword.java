@@ -154,7 +154,7 @@ Ability {
 
     @Override
     public int getAbilityCooldownTicks() {
-        return 400;
+        return 0;
     }
 
     @Override
